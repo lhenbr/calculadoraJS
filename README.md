@@ -1,2 +1,3 @@
-Calculadora básica feita em HTML, CSS e Jvavascript para treinar os conceitos de rsponsividade e manipulação de string.
+Calculadora básica feita em HTML, CSS e Javascript para treinar os conceitos de responsividade e manipulação de string.
+Para utilizar, insira dois numeros inteiros positivos com o sinal da operação no meio
 Criado por Lucas Martins
