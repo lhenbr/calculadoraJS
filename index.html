@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+    <title>Calculadora</title>
+</head>
+
+<body>
+    <section>
+        <div id='calculator'>
+            <h1>Calculadora Básica</h1>
+            <input type="text" name="disp" id="disp" value="">
+            <div id="keyboard">
+                <input type="button" value="7" onclick="writeindisp(7)">
+                <input type="button" value="8" onclick="writeindisp(8)">
+                <input type="button" value="9" onclick="writeindisp(9)">
+                <input type="button" value="+" onclick="writeindisp('SUM')">
+                <input type="button" value="4" onclick="writeindisp(4)">
+                <input type="button" value="5" onclick="writeindisp(5)">
+                <input type="button" value="6" onclick="writeindisp(6)">
+                <input type="button" value="-" onclick="writeindisp('SUB')">
+                <input type="button" value="1" onclick="writeindisp(1)">
+                <input type="button" value="2" onclick="writeindisp(2)">
+                <input type="button" value="3" onclick="writeindisp(3)">
+                <input type="button" value="*" onclick="writeindisp('TIMES')">
+                <input type="button" value="0" onclick="writeindisp(0)">
+                <input type="button" value="C" onclick="reset()">
+                <input type="button" value="=" onclick="calculate()">
+                <input type="button" value="/" onclick="writeindisp('DIVIDE')">
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p> &copy Lucas Martins</p>
+    </footer>
+</body>
+
+</html>

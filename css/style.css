@@ -1,0 +1,41 @@
+:root{
+    box-sizing:border-box;
+}
+h1{
+    text-align: center;
+    margin:1%;
+    font-size: 2em;
+    color: white;
+}
+#calculator{
+ padding-top: 1%;
+    width: 300px;
+    background: red;
+}
+#keyboard{
+    width: 100%;
+    padding: 3%;
+}
+input[type="text"]{
+    width: 90%;
+    margin: 3%;
+}
+input[type="button"]{
+    width: 20%;
+    margin: 1%;
+}
+@media (min-width: 900px){
+    #calculator{
+        width: 900px;
+    }
+    input{
+        height: 60px;
+        font-size:2em;
+    }
+    h1{
+        font-size: 3em;
+    }
+    footer{
+        font-size: 2em;
+    }
+}
